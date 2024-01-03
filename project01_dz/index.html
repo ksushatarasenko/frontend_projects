@@ -77,34 +77,40 @@
                 </ul>
             </div>
             <div>
-                <form action="">
+                <form >
                     <input type="text" placeholder="Full Name*">
                     <div>
                         <input type="email" placeholder="Email*">
                         <input type="password" placeholder="Password*">
                     </div>
                     <div>
-                        <input type="date" placeholder="Date of Birth">
-                        <select name="" id="" >
-                            <option value="Country" disabled>Country</option>
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
+                        <input type="date" >
+                        <select >
+                            <option selected disabled>Country</option>
+                            <option value="">Belarus</option>
+                            <option value="">China</option>
+                            <option value="">USA</option>
                         </select>
                     </div>
+                    <div>
+                        <label for="front"><input type="radio" name="stack" checked id="front">Frontend</label>
+                        <label for="back"><input type="radio" name="stack" id="back">Backend</label>
+                    </div>
+                    <fieldset>
+                        <legend>Favorite Technologies</legend>
+                        <label for="html"><input type="checkbox" name="html" checked id="html">HTML</label>
+                        <label for="css"><input type="checkbox" name="css" checked id="css">CSS</label>
+                        <label for="react"><input type="checkbox" name="react" id="react">React</label>
+                        <label for="sc"><input type="checkbox" name="sc" id="sc">Styled components</label>
+                    </fieldset>
                     <textarea placeholder="Something else about you..."></textarea>
                     <button>registration</button>
-                    <div>
-                        <input type="radio">
-                        <input type="radio">
-                    </div>
                 </form>
             </div>
         </section>
     </main>
     <footer class="footer">
-        <p>Copyright © 2023. All rights reserved.</p>
+        <small>Copyright © 2023. All rights reserved.</small>
     </footer>
 </body>
 
